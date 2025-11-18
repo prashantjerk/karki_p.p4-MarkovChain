@@ -29,6 +29,7 @@ public abstract class LexicalParser {
         return sentences;
     }
 
+    // returns the list of tokens in the given sentence `input`
     public static List<String> tokenizeSentence(String input) {
         List<String> tokens = new ArrayList<>();
 
