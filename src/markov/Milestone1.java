@@ -2,7 +2,6 @@ package markov;
 
 import java.io.IOException;
 import java.nio.file.Path;
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -30,6 +29,8 @@ public class Milestone1 {
             for (String sentence : sentences) {
                 uniqueTokens.addAll(tokenizeSentence(sentence));
             }
+
+
 
             // print only the counts, not the actual sentences/tokens
             System.out.println(sentences.size());
