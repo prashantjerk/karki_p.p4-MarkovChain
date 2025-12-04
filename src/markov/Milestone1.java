@@ -1,3 +1,6 @@
+// CS242 - Fall 2025
+// @author Prashant Karki
+
 package markov;
 
 import java.io.IOException;
@@ -29,8 +32,6 @@ public class Milestone1 {
             for (String sentence : sentences) {
                 uniqueTokens.addAll(tokenizeSentence(sentence));
             }
-
-
 
             // print only the counts, not the actual sentences/tokens
             System.out.println(sentences.size());

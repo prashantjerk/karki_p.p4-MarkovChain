@@ -1,3 +1,6 @@
+// CS242 - Fall 2025
+// @author Prashant Karki
+
 package markov;
 
 import java.io.IOException;
